@@ -1,4 +1,4 @@
-// Let's create a ticket automation system so that you can get the list of ingredients for each drink, depending on the order.
+/* Let's create a ticket automation system so that you can get the list of ingredients for each drink, depending on the order.
 
 Create the boolean variables isLatte, isIced, and withMatcha.
 Create the integer variables itemsOrdered and vanillaPumps.
@@ -14,6 +14,7 @@ If a customer orders more than 1 item, print “provide cup holder”
 Create your last if statement with the following conditions:
 
 If a customer orders 2 or more pumps of vanilla, print “charge $1 extra”. //
+*/
 
 public class HelloWorld {
     public static void main(String[] args) {
