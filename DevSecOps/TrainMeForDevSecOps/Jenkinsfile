@@ -27,8 +27,8 @@ node ('Ubuntu-app-agent'){
     
     stage('Pull-image-server') {
     
-         sh "docker-compose down"
-         sh "docker-compose up -d"	
+        sh "cd DevSecOps/TrainMeForDevSecOps && docker-compose down"
+        sh "cd DevSecOps/TrainMeForDevSecOps && docker-compose up -d"
       }
     
     //stage('DAST') {
